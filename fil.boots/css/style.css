@@ -1,0 +1,415 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #62b5f1;
+  }
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  .carousel-item {
+    height: 32rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+.featurette-heading{
+  padding-bottom: 20px;
+
+}
+
+.lead{
+  background-color: #c4c4c4;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  color: black;
+  font-family: roboto;
+  border: 1px solid black;
+}
+.videodesk
+{
+  padding-top: 20px;
+  display: block;
+  text-align: center;
+}
+.footer{
+  margin-top: 0px;
+}
+
+.lead button{
+  background-color: #62b5f1;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+a button{
+  font-size: large;
+}
+a {
+
+  font-size: 17px;
+	line-height: 1.7;
+	color: #ffffff;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+a:focus {
+	outline: none !important;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+}
+
+p {
+	
+	font-size: 14px;
+  line-height: 1.7;
+  text-align: center;
+  font-family: roboto;
+	color: black;
+  margin: 0px;
+  
+}
+
+ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
+.nav-link{
+  font-size: large;
+  color: black;
+}
+
+input {
+	outline: none;
+	border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+textarea:focus, input:focus {
+  border-color: transparent !important;
+}
+
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+iframe {
+	border: none !important;
+}
+
+.contact1 {
+  width: 100%;
+  min-height: 100%;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-contact1 {
+  width: 1163px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 90px 130px 88px 148px;
+}
+
+.contact1-pic {
+  width: 296px;
+}
+
+.contact1-pic img {
+  max-width: 100%;
+}
+
+.contact1-form {
+  width: 390px;
+}
+
+.contact1-form-title {
+  display: block;
+  font-family: roboto;
+  font-size: 24px;
+  color: #000000;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 44px;
+}
+
+input.input1 {
+  height: 50px;
+  border-radius: 25px;
+  padding: 0 30px;
+  border: 1px solid black;
+}
+input.input1 + .shadow-input1 {
+  border-radius: 25px;
+}
+
+textarea.input1 {
+  min-height: 150px;
+  border-radius: 25px;
+  padding: 12px 30px;
+  border: 1px solid black;
+}
+textarea.input1 + .shadow-input1 {
+  border-radius: 25px;
+}
+
+.wrap-input1 {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+.input1 {
+  display: block;
+  width: 100%;
+  background: #e6e6e6;
+  font-family: roboto;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.input1:focus + .shadow-input1 {
+  -webkit-animation: anim-shadow 0.5s ease-in-out forwards;
+  animation: anim-shadow 0.5s ease-in-out forwards;
+}
+
+
+.container-contact1-form-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.contact1-form-btn {
+  min-width: 193px;
+  height: 50px;
+  border-radius: 25px;
+  background: #3b5998;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  border: 1px solid black;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.history{
+  text-align: center;
+  margin: 20px;
+  padding: 50px;
+}
+.history p{
+  font-size: large;
+  font-family: roboto;
+  
+}
+.fort{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.titre{
+  float: left;
+  font-style: italic;
+  
+}
+
+.bodyv{
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+
+.container .card .imgbx img
+{
+        max-width: 100%;
+        border-radius: 4px;
+      
+}
+
+.container .card .content
+{
+        position: relative;
+        margin-top: 15px;
+        padding: 10px 15px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        opacity: 5;
+        
+      
+}
+.container .card :hover.content
+{
+      position: relative;
+      opacity: 1;
+      margin-top: -40px;
+      transition-delay: 0.3s;
+}
+.bodyv{
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.container .card
+{
+        position: relative;
+        max-width: 500px;
+        height: 220px;
+        background: #c4c4c4;
+        margin: 30px 10px;
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        transition: 0.3s ease-in-out;
+        box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+        border: #000000 1px solid;
+}
+@media screen and (max-width: 501px)
+{
+  
+ .bodyv     
+ {
+         display: flex;
+         flex-wrap: wrap;
+            
+ }  
+ .container .card{
+  max-width: 500px;
+  height: 220px;
+  margin: 10px ;
+  margin-bottom:200px ;
+ }
+ .container .card .content
+{
+        position: relative;
+        margin-top: 0px;
+        padding: 10px 15px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        opacity: 5;
+        
+      
+}
+}
+@media screen and (min-width: 502px){
+  .container .card
+{
+        position: relative;
+        padding: 1px;
+        margin: -10px;
+        display: flex;
+        flex-direction: column;
+        transition: 0.3s ease-in-out;
+        box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+        border: #000000 1px solid;
+}
+
+.container .card .imgbx img
+{
+        display: block;
+        height: 200px;
+        border-radius: 4px;
+      
+}
+.lead{
+        margin-left: -35px;
+        margin-right: -10px;
+}
+.col-md-5{
+  
+ 
+  margin-top: 200px;
+ 
+}
+.featurette-heading{
+  text-align: center;
+}
+.footer{
+  margin-top: 250px;
+}
+.container .card .content
+{
+        position: relative;
+        margin-top: 15px;
+        padding: 10px 15px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        opacity: 5;
+        
+      
+}
+}
+@media screen and (min-width: 1101px){
+  .container .card{
+    max-width: 500px;
+    height: 220px;
+    margin: 10px ;
+    margin-bottom:200px ;
+    display: flex;
+    align-items: center;
+   }
+   .lead{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: auto;
+  }
+
+  .col-md-5{
+   width: auto;
+    height: auto;
+    margin-top: 0px;
+  }
+  .col-md-5{
+    margin-top: 85px;
+   
+  }
+
+}
